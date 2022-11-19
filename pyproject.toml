@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-async-documentation"
+version = "0.1.0"
+description = ""
+authors = ["Bruno Fioreze"]
+readme = "README.md"
+packages = [{include = "python_async_documentation"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
